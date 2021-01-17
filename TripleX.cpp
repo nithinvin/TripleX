@@ -25,6 +25,7 @@ int main()
     std::cin >> GuessB ;
     std::cin >> GuessC ;
     
+    //Guessed Sum and Product
     int GuessSum = GuessA + GuessB + GuessC;
     int GuessProduct = GuessA * GuessB * GuessC;
 

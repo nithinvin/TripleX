@@ -1,6 +1,6 @@
 #include <iostream> 
 
-int main()
+void PlayGame()
 {
     // Print welcome messages to the terminal
     std::cout << "You are a secret agent breaking into a secure server room..." << '\n';
@@ -36,6 +36,10 @@ int main()
     {
         std::cout << "\nYou lose!";
     }
-    
+}
+
+int main()
+{ 
+    PlayGame();
     return 0;
 }
